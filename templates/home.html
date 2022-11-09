@@ -1,0 +1,23 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> MEDICAL INSURANCE PREMIUM </h1><br>
+        
+        <form method="POST", action="{{url_for('predict_class')}}">
+           <b> age value :  <input type="text", name='age', placeholder="in year"> <br><br>
+            sex male/female :  <input type="text", name='sex', placeholder="male/female"> <br><br>
+            bmi value :  <input type="text", name='bmi', placeholder="enter value"> <br><br>
+            no of children :  <input type="text", name='children', placeholder="enter no"> <br><br>
+            smoker :  <input type="text", name='smoker', placeholder="yes/no"> <br><br>
+            region : <input type="text", name='region', placeholder="northeast/northwest/southeast/southwest"> <br><br><br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+
+        <img src='Static\image.jpg' alt="flower">
+        
+    </center>
+
+    </body>
+</html>
